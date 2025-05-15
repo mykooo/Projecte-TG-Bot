@@ -49,7 +49,7 @@ def set_language(message):
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
     chat_id = message.chat.id
-    lang = user_languages.get(chat_id, 'en')  # 
+    lang = user_languages.get(chat_id, 'en')  
 
     if lang == 'en':
         system_prompt = "You are a friendly travel assistant helping tourists in Barcelona. Be informative and concise."

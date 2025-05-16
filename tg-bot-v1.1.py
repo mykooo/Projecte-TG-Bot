@@ -3,8 +3,8 @@ import telebot
 import openai
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-TG_API = 'XXX'
-OPENAI_API = 'XXX'
+TG_API = 'TG_TOKEN_1'
+OPENAI_API = 'IA_TOKEN_1'
 OPENAI_MODEL = "gpt-4o"
 
 bot = telebot.TeleBot(TG_API)
